@@ -1,32 +1,38 @@
 # 🔬 Research on Lead-Free Perovskite Solar Cell (Cs₂TiBr₆)
 
-> **Numerical Simulation & Performance Optimization using SCAPS-1D**
+![Domain](https://img.shields.io/badge/Domain-Perovskite%20Solar%20Cells-blue)
+![Simulation](https://img.shields.io/badge/Simulation-SCAPS--1D-orange)
+![Material](https://img.shields.io/badge/Material-Cs2TiBr6-green)
+![Type](https://img.shields.io/badge/Type-Numerical%20Research-purple)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-This repository presents a **detailed numerical investigation** of a **lead-free double perovskite solar cell based on Cs₂TiBr₆**, focusing on **device architecture optimization**, **transport layer engineering**, and **performance benchmarking** using **SCAPS-1D simulation software**.
+> **Numerical Simulation & Performance Optimization of Lead-Free Perovskite Solar Cells using SCAPS-1D**
 
-The work aims to demonstrate the feasibility of **high-efficiency, environmentally friendly perovskite solar cells** by optimizing material selection and energy band alignment.
+This repository contains a **detailed numerical research study** on a **lead-free double perovskite solar cell based on Cs₂TiBr₆**, focusing on **device architecture optimization**, **transport layer engineering**, and **performance evaluation** using the **SCAPS-1D solar cell simulator**.
+
+The work addresses environmental concerns of lead-based perovskites while achieving **competitive photovoltaic performance** through careful material and interface optimization.
 
 ---
 
 ## 🧾 Abstract
 
-Lead-free perovskite solar cells have gained significant attention as sustainable alternatives to conventional lead-based photovoltaics. In this work, a Cs₂TiBr₆-based perovskite solar cell is numerically modeled and optimized using the SCAPS-1D simulator. Multiple device architectures with different electron and hole transport layers are analyzed to study their impact on photovoltaic performance. An optimized structure of **Au / CuAlO₂ / Cs₂TiBr₆ / IGZO / FTO** achieves a maximum **power conversion efficiency (PCE) of 19.53%**. The enhancement is attributed to improved band alignment, reduced interfacial recombination, and efficient charge extraction. These results highlight the strong potential of Cs₂TiBr₆ as a lead-free absorber for next-generation photovoltaic devices.
+Lead-free perovskite solar cells have emerged as promising alternatives to conventional lead-based photovoltaics due to their environmental compatibility and long-term stability. In this work, a Cs₂TiBr₆-based perovskite solar cell is numerically modeled and optimized using the SCAPS-1D simulator. Various device architectures incorporating different electron and hole transport layers are investigated. The optimized structure **Au / CuAlO₂ / Cs₂TiBr₆ / IGZO / FTO** demonstrates a maximum **power conversion efficiency (PCE) of 19.53%**. The performance enhancement is attributed to improved energy band alignment, reduced recombination losses, and efficient charge carrier extraction. The results highlight Cs₂TiBr₆ as a strong candidate for next-generation lead-free photovoltaic devices.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Research Objectives
 
-- Model a **lead-free perovskite solar cell** using SCAPS-1D  
-- Analyze the impact of **HTL and ETL material selection**
-- Identify the **best-performing device architecture**
-- Compare simulated results with **reported literature**
-- Present **numerical, graphical, and comparative analysis**
+- Design and simulate a **lead-free perovskite solar cell**
+- Optimize **HTL and ETL material combinations**
+- Analyze **SCAPS-1D numerical outputs**
+- Identify the **best-performing device configuration**
+- Compare results with **reported literature benchmarks**
 
 ---
 
-## 🧱 Device Architecture
+## 🧱 Optimized Device Architecture
 
-### 🔝 Optimized Structure (Best Performing)
+### ✅ Best Performing Structure
 
 ```
 
@@ -35,7 +41,8 @@ Au / CuAlO₂ / Cs₂TiBr₆ / IGZO / FTO
 ```
 
 
-- **Absorber Layer:** Cs₂TiBr₆  
+**Layer Details**
+- **Absorber:** Cs₂TiBr₆  
 - **Hole Transport Layer (HTL):** CuAlO₂  
 - **Electron Transport Layer (ETL):** IGZO  
 - **Front Contact:** FTO  
@@ -43,19 +50,23 @@ Au / CuAlO₂ / Cs₂TiBr₆ / IGZO / FTO
 
 ---
 
-## 🛠️ Simulation Tool & Parameters
+## 🛠️ Simulation Environment
 
-- **Simulator:** SCAPS-1D  
-- **Temperature:** 300 K  
-- **Absorber Thickness:** ~600 nm  
+- **Simulation Tool:** SCAPS-1D  
 - **Illumination:** AM 1.5G  
-- **Simulation Type:** J–V and QE analysis  
+- **Operating Temperature:** 300 K  
+- **Absorber Thickness:** ≈ 600 nm  
+- **Analysis Performed:**  
+  - J–V Characteristics  
+  - Quantum Efficiency (QE)  
+  - Energy Band Diagrams  
 
 ---
 
-## 📊 Numerical Results (Best Performing Configuration)
+## 📊 Numerical Results (Best Configuration)
 
-> Extracted directly from `MINOR_MAIN_TABLE.xlsx`
+> ✔ Extracted directly from  
+> `SCAPS_RESULTS_DATA_EXCEL_SHEET / MINOR_MAIN_TABLE.xlsx`
 
 | Parameter | Symbol | Value |
 |---------|--------|------|
@@ -63,76 +74,87 @@ Au / CuAlO₂ / Cs₂TiBr₆ / IGZO / FTO
 | Short-Circuit Current Density | J<sub>SC</sub> | **23.54 mA/cm²** |
 | Fill Factor | FF | **73.88 %** |
 | Power Conversion Efficiency | PCE (η) | **19.53 %** |
-| Device Structure | — | **Au / CuAlO₂ / Cs₂TiBr₆ / IGZO / FTO** |
+| Device Architecture | — | **Au / CuAlO₂ / Cs₂TiBr₆ / IGZO / FTO** |
 | Operating Temperature | — | **300 K** |
 
-✔ Represents the **highest efficiency configuration**  
-✔ Values are **simulation-backed and non-random**
+✔ Best efficiency among all simulated configurations  
+✔ Data is **simulation-backed (not random)**  
 
 ---
 
-## 📈 Architecture Comparison Summary
+## 📈 Key Performance Insights
 
-- **CuAlO₂ HTL** improves hole extraction and reduces recombination  
-- **IGZO ETL** offers favorable band alignment and electron mobility  
-- Cu₂O and PCBM-based structures show **lower FF and efficiency**  
-- ZnSe-based ETLs suffer from **higher recombination losses**
+- **CuAlO₂ HTL** significantly reduces hole recombination
+- **IGZO ETL** provides favorable band alignment and electron mobility
+- Optimized interfaces improve **Fill Factor and Voc**
+- Alternative transport layers showed reduced efficiency due to higher interfacial losses
 
 ---
 
-## 🖼️ SCAPS Simulation Outputs
+## 🖼️ SCAPS Simulation Results
 
-### J–V Characteristics
-<img src="RESULTS/JV_Curve.png" width="650"/>
+All simulation outputs are stored **exactly as per repository structure**.
 
-### Quantum Efficiency (QE)
-<img src="RESULTS/QE_Curve.png" width="650"/>
+### Available Outputs
+- J–V Characteristics  
+- Quantum Efficiency (QE) plots  
+- Energy Band Diagrams  
 
-### Energy Band Diagram
-<img src="RESULTS/Band_Diagram.png" width="650"/>
-
-📁 **Graph Directory Reference**
+📁 **Folder References**
 
 ```
-RESULTS/
-├── JV_Curve.png
-├── QE_Curve.png
-└── Band_Diagram.png
+
+GRAPHS/
+├── JV_Curves/
+├── QE_Plots/
+└── Band_Diagrams/
+
+SCAPS_RESULTS/
+└── Raw_SCAPS_Output_Files
 
 ```
+
 
 ---
 
 ## 📚 Comparison with Literature
 
-Most reported Cs₂TiBr₆-based lead-free perovskite solar cells show efficiencies in the range of **3–12%** due to poor carrier transport and suboptimal band alignment.  
+Previously reported Cs₂TiBr₆-based lead-free perovskite solar cells typically demonstrate efficiencies in the range of **3–12%**, limited by carrier transport and recombination losses.
 
-This work achieves a significantly improved **PCE of 19.53%**, surpassing many reported devices, primarily due to optimized transport layers and reduced interfacial recombination.
+The **19.53% PCE** achieved in this work represents a **significant improvement**, emphasizing the importance of transport layer optimization and interface engineering in lead-free perovskite devices.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Structure (Verified)
 
 ```
+
 Research-on-Perovskite-Solar-Cell-Cs2TiBr6/
 │
-├── RESULTS/
-│ ├── JV_Curve.png
-│ ├── QE_Curve.png
-│ └── Band_Diagram.png
+├── ALL FILES ( Editable Format )/
+│ ├── Editable_Presentations
+│ └── Editable_Documents
 │
-├── DATA/
+├── DOCUMENTS/
+│ ├── Project_Report
+│ └── Synopsis
+│
+├── GRAPHS/
+│ ├── JV_Curves
+│ ├── QE_Plots
+│ └── Band_Diagrams
+│
+├── REFERENCE PAPER/
+│ └── Research_and_Review_Papers
+│
+├── SCAPS_RESULTS/
+│ └── SCAPS_Output_Files
+│
+├── SCAPS_RESULTS_DATA_EXCEL_SHEET/
 │ └── MINOR_MAIN_TABLE.xlsx
 │
-├── REPORT/
-│ ├── Project_Report.docx
-│ └── Synopsis.docx
-│
-├── REFERENCES/
-│ ├── Research_Papers.pdf
-│ └── Reference_Material.pptx
-│
 └── README.md
+
 ```
 
 
@@ -141,9 +163,9 @@ Research-on-Perovskite-Solar-Cell-Cs2TiBr6/
 ## 🔮 Future Scope
 
 - Experimental validation of simulated architecture  
-- Interface defect density optimization  
-- Temperature-dependent performance analysis  
-- Tandem solar cell integration  
+- Interface defect density and trap-state analysis  
+- Temperature-dependent performance study  
+- Tandem and multilayer device integration  
 
 ---
 
